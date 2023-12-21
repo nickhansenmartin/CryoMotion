@@ -75,7 +75,7 @@ async def motor_control():
             IN2.low()
             IN3.low()
             IN4.low()
-            # break
+            break
         elif button == 2: # Up
             speedA.duty_u16(17000) # Duty cycles account for incorrect wrong motor
             speedB.duty_u16(65535)
